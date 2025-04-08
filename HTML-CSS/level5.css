@@ -1,0 +1,35 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    border: 2px solid black;
+     /* transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease; */
+    /* transition-delay: 1s; 
+    transition: all 2s ease-in 1s; */
+    margin-top: 100px;
+    margin-left    : 500px;
+    /* position: absolute;
+    top: 50px; */
+    bottom: 100px;
+    /* rotate: z 90deg; */
+   
+    transition: all 2s ease-in-out;
+    border-radius: 50%;
+}
+div:hover{
+    background-color:rgb(242, 55, 87);
+    color: white;
+    font-size: 20px;
+    border-radius: 50%;
+    /* transform: rotate(90deg) */
+    transform: scale(2);
+    
+
+    /* transform: translateX(100px); */
+    
+}
+body{
+    background-color:black;
+}
