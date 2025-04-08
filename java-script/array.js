@@ -156,9 +156,9 @@
 // console.log(arr2);
 
 /*  map short method */
-// let arry4 = [5, 9, 4, "7", 2, 3, "abhishek shukla"];
-// let arry5 = arry4.map((val,index) => val*2);
-// console.log(arry5);
+let arry4 = [5, 9, 4, "5", 2, 3, "abhishek shukla"];
+let arry5 = arry4.map((val,index) => val*2);
+console.log(arry5);
 
 // let arr1=[5,6,7];
 // let arr2=arr1.map((name)=>{
