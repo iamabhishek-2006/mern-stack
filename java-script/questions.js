@@ -89,16 +89,16 @@
 // console.log(array2);
 
 /* find the sum of all even numbers in array */
-// function findEven(array) {
-//   return array.reduce((acc, num) => {
-//     if (num % 2 == 0) {
-//       return acc+num;
-//     }
-//     return acc;
-//   }, 0);
-// }
-// let res = findEven([2, 3, 6, 4, 5, 7, 8, 65, 22, 42, 78]);
-// console.log(res);
+function findEven(array) {
+  return array.reduce((acc, num) => {
+    if (num % 2 == 0) {
+      return acc+num;
+    }
+    return acc;
+  }, 0);
+}
+let res = findEven([2, 3, 6, 4, 5, 7, 8, 65, 22, 42, 78]);
+console.log(res);
 
 /* merge two objects */
 // let obj1 = {
