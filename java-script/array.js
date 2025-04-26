@@ -123,7 +123,7 @@
 //  },[ ]);
 //  console.log(val);
 
-// arr1 = [1, 2, 3, 4, 5, 6, 3, 4];
+// arr1 = [1, 2, 3, 4, 5, 6, 3, 4,1,2,7,8,4,3,6,8,2,1];
 // arr2 = [];
 // commonValues = arr1.reduce((acc, num) => {
 //   if (! acc.includes(num)) {
